@@ -614,7 +614,7 @@ vars= {
       0:0,
       15:2,
    },
-   'cycleway_pattern': '2 4',
+   'cycleway_pattern': '4 3',
    'cycleway_ol_width': 1,
    'cycleway_ol_clr': "0 0 0",
    'display_footways': {
