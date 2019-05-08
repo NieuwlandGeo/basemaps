@@ -639,13 +639,13 @@ vars= {
       0:0,
       8:1
    },
-   'railway_clr': '"#777777"',
+   'railway_clr': '"#FFFFFF"',
    'railway_width': {
       0:0.5,
       10:1
    },
    'railway_ol_clr': '"#777777"',
-   'railway_ol_width': 0,
+   'railway_ol_width': 1,
    'railway_pattern': '2 2',
    'railway_tunnel_opacity': 40,
    'railways_data': {
@@ -1259,6 +1259,14 @@ styles = {
          0:'"#aaaaaa"',
          12:'"#ffffff"'
       },
+      'cycleway_clr': {
+         0:'"#aaaaaa"',
+         15:'"#9999FF"',
+      },
+      'cycleway_width': {
+         0:0,
+         15:1,
+      },
       'other_clr': {
          0:'"#aaaaaa"',
          13:'"#ffffff"'
@@ -1276,7 +1284,6 @@ styles = {
       'river_clr': '"#b3c6d4"',
       'stream_clr': '"#b3c6d4"',
       'canal_clr': '"#b3c6d4"',
-
       'motorway_ol_clr': '"#39780f"',
       'trunk_ol_clr': '"#bf6219"',
       'primary_ol_clr': '"#d17f40"',
@@ -1284,7 +1291,15 @@ styles = {
       'tertiary_ol_clr': '"#b7ac9a"',
       'other_ol_clr': '"#b7ac9a"',
       'pedestrian_ol_clr': '193 181 157',
-      'footway_clr': '"#7f7f7f"'
+      'footway_clr': '"#7f7f7f"',
+      'railway_clr': '"#FFFFFF"',
+      'railway_width': {
+         0:1,
+         10:1
+      },
+      'railway_ol_clr': '"#CCCCCC"',
+      'railway_ol_width': 1,
+      'railway_pattern': '6 10',
    },
    'osm2pgsql': {
       'waterarea_data': {
