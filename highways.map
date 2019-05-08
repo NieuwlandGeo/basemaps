@@ -247,7 +247,7 @@ LAYER
 #else
         EXPRESSION "cycleway"
 #endif
-#if _display_other_outline
+#if _display_cycleway_outline
         STYLE
            WIDTH _cycleway_width
            OUTLINEWIDTH _cycleway_ol_width
