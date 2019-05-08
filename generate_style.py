@@ -773,8 +773,7 @@ vars= {
    'building_ol_clr': '"#333333"',
    'building_ol_width': {
       0:0,
-      16:0.1,
-      17:0.5
+      16:0.1,      
    },
    'building_font': "sc",
    'building_lbl_clr': "0 0 0",
