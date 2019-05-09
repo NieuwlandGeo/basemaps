@@ -1015,7 +1015,7 @@ vars= {
 
    'display_localities': {
       0:0,
-      13:1
+      15:1
    },
    'locality_font': "sc",
    'locality_lbl_clr': {
@@ -1027,8 +1027,7 @@ vars= {
    'display_locality_symbol': 0,
    'locality_lbl_size': {
       0:0,
-      13:8,
-      15:9,
+      13:8,      
    },
    'locality_size': 5,
    'locality_ol_clr': "0 0 0",
