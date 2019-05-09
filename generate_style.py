@@ -502,7 +502,7 @@ vars= {
 
    'display_other_roads': {
       0:0,
-      11:1
+      12:1
    },
    'display_other_outline': 0,
    'other_clr': {
@@ -619,7 +619,7 @@ vars= {
    'cycleway_ol_clr': "0 0 0",
    'display_footways': {
       0:0,
-      15:1
+      16:1
    },
    'display_footway_outline': 0,
    'footway_clr': {
@@ -628,7 +628,7 @@ vars= {
    },
    'footway_width': {
       0:0,
-      15:1,
+      15:0.5,
    },
    'footway_pattern': '2 3',
    'footway_ol_width': 1,
@@ -1085,7 +1085,7 @@ styles = {
       'tertiary_ol_clr': '0 0 0',
       'display_other_outline': {
          0:0,
-         14:1
+         15:1
       },
       'other_width': {
          0:0,
