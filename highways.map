@@ -16,12 +16,15 @@ LAYER
     CLASS
       EXPRESSION "0"
         STYLE
-         WIDTH _railway_width
-         COLOR _railway_clr
-         OUTLINEWIDTH _railway_ol_width
-         OUTLINECOLOR _railway_ol_clr
-         PATTERN _railway_pattern END
-         LINECAP BUTT
+            WIDTH _railway_width
+            OUTLINEWIDTH _railway_ol_width
+            OUTLINECOLOR _railway_ol_clr
+        END
+        STYLE
+            WIDTH _railway_width
+            COLOR _railway_clr         
+            PATTERN _railway_pattern END
+            LINECAP BUTT
         END
     END
     CLASS
@@ -247,7 +250,7 @@ LAYER
 #else
         EXPRESSION "cycleway"
 #endif
-#if _display_other_outline
+#if _display_cycleway_outline
         STYLE
            WIDTH _cycleway_width
            OUTLINEWIDTH _cycleway_ol_width
