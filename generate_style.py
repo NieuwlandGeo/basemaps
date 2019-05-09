@@ -1245,6 +1245,14 @@ styles = {
    },
    'bing':{
       'motorway_clr': '"#FAED76"',
+      'motorway_width': {
+         0:0.5,         
+         11:1,
+         12:2,
+         14:3,
+         15:4         
+      },
+      'motorway_ol_width': 0.5,
       'trunk_clr': '"#FFF5A8"',
       'primary_clr': {
          0:'"#aaaaaa"',
@@ -1267,8 +1275,23 @@ styles = {
          15:1,
       },
       'other_clr': {
-         0:'"#aaaaaa"',
-         13:'"#ffffff"'
+         0:'"#ffffff"',
+         14:'"#ffffff"'
+      },     
+      'other_width': {
+         0:0,
+         11:0.5,
+         12:0.75,
+         13:1,
+         14:1.5,
+         15:2,
+         16:3,
+         17:4,
+         18:5,
+      },
+      'display_tracks': {
+         0:0,
+         15:1
       },
       'cemetery_clr': '"#E3F8D2"',
       'pedestrian_clr': '"#fafaf5"',
@@ -1286,14 +1309,21 @@ styles = {
       'river_clr': '"#9CE3F9"',
       'stream_clr': '"#9CE3F9"',
       'canal_clr': '"#9CE3F9"',
-      'motorway_ol_clr': '"#f6e11e"',      
+      'motorway_ol_clr': '"#b1a006"',      
       'trunk_ol_clr': '"#bf6219"',
       'primary_ol_clr': '"#d17f40"',
+      'primary_ol_width': 0.5,
       'secondary_ol_clr': '"#bbb8b4"',
+      'secondary_ol_width': 0.5,
       'tertiary_ol_clr': '"#b7ac9a"',
       'other_ol_clr': '"#b7ac9a"',
       'pedestrian_ol_clr': '193 181 157',
       'footway_clr': '"#7f7f7f"',
+      'footway_pattern': '2 4',
+      'track_clr': '"#7f7f7f"',  
+      'track_pattern': '2 2',  
+      'track_ol_width': 0,
+      'track_width': 0.5,
       'railway_clr': '"#FFFFFF"',
       'railway_width': {
          0:1,
