@@ -1260,6 +1260,13 @@ styles = {
       },
       'motorway_ol_width': 0.5,
       'trunk_clr': '"#FFF5A8"',
+      'trunk_width': {
+         0:0.5,         
+         11:1,
+         12:2,
+         14:3,
+         15:4         
+      },
       'primary_clr': {
          0:'"#aaaaaa"',
          9:'"#FEF483"'
@@ -1316,7 +1323,8 @@ styles = {
       'stream_clr': '"#9CE3F9"',
       'canal_clr': '"#9CE3F9"',
       'motorway_ol_clr': '"#b1a006"',      
-      'trunk_ol_clr': '"#bf6219"',
+      'trunk_ol_clr': '"#b1a006"',
+      'trunk_ol_width': 0.5,
       'primary_ol_clr': '"#d17f40"',
       'primary_ol_width': 0.5,
       'secondary_ol_clr': '"#bbb8b4"',
