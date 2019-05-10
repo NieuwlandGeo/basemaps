@@ -640,14 +640,20 @@ vars= {
       0:0,
       8:1
    },
-   'railway_clr': '"#FFFFFF"',
+   'railway_clr': {
+      0: '"#AAAAAA"',
+      15: '"#FFFFFF"'
+   },
    'railway_width': {
       0:0.5,
-      10:1
+      15:1
    },
-   'railway_ol_clr': '"#777777"',
-   'railway_ol_width': 1,
-   'railway_pattern': '2 2',
+   'railway_ol_clr': '"#AAAAAA"',
+   'railway_ol_width': {
+      0:0,
+      15:1
+   },
+   'railway_pattern': '3 3',
    'railway_tunnel_opacity': 40,
    'railways_data': {
       0:'"geometry from (select geometry, osm_id, tunnel from OSM_PREFIX_railways_gen0 where type=\'rail\') as foo using unique osm_id using srid=OSM_SRID"',
