@@ -27,3 +27,8 @@
 - Most configuration and tweaks should be done in generate_style.py.
   documentation as to how to edit can be fount at
   https://mapserver.org/basemaps/style.html.
+
+[Local development with docker](./Docker.md)
+
+
+
