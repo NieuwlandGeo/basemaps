@@ -29,7 +29,8 @@ imposm import -mapping /app/imposm3-mapping.json -connection postgis://osm:osm@l
 
 ```
 docker-compose exec webserver bash
-make --always-make -f docker.mk
+make --always-make -f docker.mk #repeat to regenerate
+STYLE=bing make --always-make -f docker.mk 
 cd data
 make 
 ```
