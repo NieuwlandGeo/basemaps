@@ -3,3 +3,5 @@ osm-*.map
 osm-*.log
 *.mk
 !docker.mk
+*.pyc 
+.vscode
