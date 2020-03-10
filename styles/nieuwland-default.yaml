@@ -1,0 +1,36 @@
+display_other_roads:
+  0: 0
+  12: 0
+cycleway_pattern: '4 3'
+display_footways:
+  0: 0
+  16: 1
+footway_width:
+    0: 0
+    15: 0.5
+railway_clr:
+  0: '"#AAAAAA"'    
+  15: '"#FFFFFF"'    
+railway_width:
+  0: 0.5
+  15: 1
+railway_ol_clr:
+  0: 0
+  15: 1
+railway_ol_width:
+  0: 0
+  15: 1  
+railway_pattern: '3 3'
+building_ol_width:
+  0: 0
+  16: 0.1
+display_localities:
+  0: 0
+  15: 0
+locality_lbl_size:
+  0: 0
+  13: 8
+display_other_outline:
+  0: 0
+  15: 1
+
