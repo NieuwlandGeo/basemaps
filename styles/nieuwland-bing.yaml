@@ -1,0 +1,85 @@
+building_clr: '"#EDEDED"'
+canal_clr: '"#9CE3F9"'
+cemetery_clr: '"#E3F8D2"'
+cycleway_clr:
+  0: '"#aaaaaa"'
+  15: '"#9999FF"'
+cycleway_width:
+  0: 0
+  15: 1
+display_tracks:
+  0: 0
+  15: 1
+education_clr: '"#ded1ab"'
+footway_clr: '"#7f7f7f"'
+footway_pattern: 2 4
+forest_clr: '"#B8F3A4"'
+hospital_clr: '"#e6c8c3"'
+industrial_clr: '"#F1F1F1"'
+land_clr: '"#f6f1e6"'
+motorway_clr: '"#FAED76"'
+motorway_ol_clr: '"#b1a006"'
+motorway_ol_width: 0.5
+motorway_width:
+  0: 0.5
+  11: 1
+  12: 2
+  14: 3
+  15: 4
+ocean_clr: '"#9CE3F9"'
+other_clr:
+  0: '"#ffffff"'
+  14: '"#ffffff"'
+other_ol_clr: '"#b7ac9a"'
+other_width:
+  0: 0
+  11: 0.5
+  12: 0.75
+  13: 1
+  14: 1.5
+  15: 2
+  16: 3
+  17: 4
+  18: 5
+park_clr: '"#B8F3A4"'
+pedestrian_clr: '"#fafaf5"'
+pedestrian_ol_clr: 193 181 157
+primary_clr:
+  0: '"#aaaaaa"'
+  9: '"#FEF483"'
+primary_ol_clr: '"#d17f40"'
+primary_ol_width: 0.5
+railway_clr: '"#FFFFFF"'
+railway_ol_clr: '"#CCCCCC"'
+railway_ol_width: 1
+railway_pattern: 6 10
+railway_width:
+  0: 1
+  10: 1
+residential_clr: '"#F1F1F1"'
+river_clr: '"#9CE3F9"'
+secondary_clr:
+  0: '"#aaaaaa"'
+  10: '"#FCFCCC"'
+secondary_ol_clr: '"#bbb8b4"'
+secondary_ol_width: 0.5
+stream_clr: '"#9CE3F9"'
+tertiary_clr:
+  0: '"#aaaaaa"'
+  12: '"#ffffff"'
+tertiary_ol_clr: '"#b7ac9a"'
+track_clr: '"#7f7f7f"'
+track_ol_width: 0
+track_pattern: 2 2
+track_width: 0.5
+trunk_clr: '"#FFF5A8"'
+trunk_ol_clr: '"#b1a006"'
+trunk_ol_width: 0.5
+trunk_width:
+  0: 0.5
+  11: 1
+  12: 2
+  14: 3
+  15: 4
+waterarea_clr: '"#9CE3F9"'
+
